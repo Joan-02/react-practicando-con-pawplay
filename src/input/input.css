@@ -1,0 +1,49 @@
+.input {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #787878;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+
+    &:hover {
+        border-width: 2px;
+    }
+}
+
+input::placeholder {
+    color: #787878;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label {
+    color: #1a1a1a;
+    font-family: "Atkinson Hyperlegible Next";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input--focus {
+    border-color: #4178bb;
+}
+
+.input--error {
+    border-color: #F82F2F;
+}
+
+.input--disabled {
+    opacity: 0.5;
+}
+
+.label--disabled {
+    opacity: 0.5;
+}
