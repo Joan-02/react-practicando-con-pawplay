@@ -1,8 +1,8 @@
 // import { useState } from 'react';
-import './App.css';
+import "./App.css";
+import { Dogcard } from "./dog-card/Dogcard";
 // import { CreateEvent } from './create-event/CreateEvent';
-import { Input } from './input/Input';
-
+import { Input } from "./input/Input";
 
 function App() {
   // const [events, setEvents] = useState([]);
@@ -12,7 +12,6 @@ function App() {
   // };
 
   return (
-    
     // <div>
     //   <CreateEvent onAddEvent={handleEvent} />  {/* Pasa handleEvent como prop */}
     //   <h2>Events List:</h2>
@@ -23,25 +22,26 @@ function App() {
     //   </ul>
     // </div>
     <>
-    <Input 
-      name="title" 
-      label="Title"
-      placeholder="Enter event title"
-      className='input' 
-    />
-    <Input 
-      name="title" 
-      label="Title"
-      placeholder="Enter event title"
-      className='input input--focus' 
-    />
-    <Input 
-      name="title" 
-      label="Title"
-      placeholder="Enter event title"
-      className='input input--error' 
-    />
-  </>
+      <Dogcard />
+      {/* <Input
+        name="title"
+        label="Title"
+        placeholder="Enter event title"
+        className="input"
+      />
+      <Input
+        name="title"
+        label="Title"
+        placeholder="Enter event title"
+        className="input input--focus"
+      />
+      <Input
+        name="title"
+        label="Title"
+        placeholder="Enter event title"
+        className="input input--error"
+      /> */}
+    </>
   );
 }
 

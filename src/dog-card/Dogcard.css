@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Tipografía base */
+.dog-card__name,
+.dog-card__value,
+.dog-card__label {
+  font-family: "Atkinson Hyperlegible Next";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+/* ========== Card ========== */
+.dog-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 328px;
+  height: 155px;
+  padding: 19px 21px;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Imagen ========== */
+.dog-card__image {
+  width: 133px;
+  height: 117px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* ========== Info ========== */
+.dog-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ========== Nombre del perro ========== */
+.dog-card__name {
+  font-size: 20px;
+}
+
+/* ========== Bloques de Rating / Events ========== */
+.dog-card__block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dog-card__rating {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* Ícono (huesito) */
+.dog-card__icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Valor numérico */
+.dog-card__value {
+  font-size: 18px;
+}
+
+/* Texto descriptivo (Rating / Events created) */
+.dog-card__label {
+  font-size: 12px;
+}
