@@ -22,7 +22,7 @@ function App() {
     //   </ul>
     // </div>
     <>
-      <Dogcard />
+      <Dogcard name='Rainbow' rating={7} events={4}/>
       {/* <Input
         name="title"
         label="Title"
