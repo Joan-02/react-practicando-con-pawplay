@@ -7,8 +7,7 @@ interface DogcardProps {
 }
 
 export const Dogcard = (props: DogcardProps) => {
-
-  const {name, rating, events} = props;
+  const { name, rating, events } = props;
   return (
     <div className="dog-card">
       <img
@@ -19,7 +18,7 @@ export const Dogcard = (props: DogcardProps) => {
       <div className="dog-card__info">
         <p className="dog-card__name">{name}</p>
 
-        <div className="dog-card__block">
+        <div className="dog-card__block-rating">
           <div className="dog-card__rating">
             <img className="dog-card__icon" src="/bone.svg" alt="" />
             <p className="dog-card__value">{rating}</p>
@@ -27,7 +26,7 @@ export const Dogcard = (props: DogcardProps) => {
           <p className="dog-card__label">Rating</p>
         </div>
 
-        <div className="dog-card__block">
+        <div className="dog-card__block-events">
           <p className="dog-card__value">{events}</p>
           <p className="dog-card__label">Events created</p>
         </div>

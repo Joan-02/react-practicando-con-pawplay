@@ -24,16 +24,17 @@ body {
   gap: 30px;
   width: 328px;
   height: 155px;
-  padding: 19px 21px;
+  padding: 20px 20px;
   background-color: #fff;
   border-radius: 14px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 /* ========== Imagen ========== */
 .dog-card__image {
-  width: 133px;
-  height: 117px;
+  min-width: 133px;
+  height: 120px;
   object-fit: cover;
   border-radius: 14px;
 }
@@ -42,19 +43,31 @@ body {
 .dog-card__info {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  justify-content: center;
+  flex: 1;
+  height: auto;
+  overflow: hidden;
 }
 
 /* ========== Nombre del perro ========== */
 .dog-card__name {
   font-size: 20px;
+  padding-bottom: 5px;
 }
 
 /* ========== Bloques de Rating / Events ========== */
-.dog-card__block {
+.dog-card__block-rating {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  padding: 5px 0 5px 0;
+  border-top: 1px solid hsla(0, 0%, 82%, 1);
+}
+
+.dog-card__block-events {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  border-top: 1px solid hsla(0, 0%, 82%, 1);
 }
 
 .dog-card__rating {
