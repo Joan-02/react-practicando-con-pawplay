@@ -23,6 +23,7 @@ body {
   align-items: center;
   gap: 30px;
   width: 328px;
+  min-width: 328px;
   height: 155px;
   padding: 20px 20px;
   background-color: #fff;

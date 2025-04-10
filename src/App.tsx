@@ -25,6 +25,10 @@ function App() {
       <Dogcard name="Rainboooooooooooooooow" rating={7} events={4} />
       <Dogcard name="Rainboow" rating={7} events={4} />
       <Dogcard name="Rainbow" rating={7} events={4} />
+      <Dogcard name="Rainbow" rating={7} events={4} />
+      <Dogcard name="Rainbow" rating={7} events={4} />
+      <Dogcard name="Rainbow" rating={7} events={4} />
+      <Dogcard name="Rainbow" rating={7} events={4} />
 
       {/* <Input
         name="title"

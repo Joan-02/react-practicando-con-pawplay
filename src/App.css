@@ -1,4 +1,15 @@
-body {
+#root {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 46px;
+  max-width: 1564px;
+  padding: 0 100px;
+}
+
+@media screen and (width <= 360px) {
+  #root {
+    padding: 0 30px;
+  }
 }
